@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+    <title>Responsive Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Form</header>
+        <form action="contact.php" method="post" class="ff">
+
+                <div class="details_personal">
+                    <div class="tittle" id="first_input">Personal Details</div>
+                
+                        <div class="input_field">
+                            <label for="firstname">Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input_field">
+                            <label for="age">Age</label>
+                            <input type="number" placeholder="Enter your age" required>
+                        </div>
+
+                        <div class="input_field">
+                            <label for="weight">Weight</label>
+                            <input type="number" placeholder="Enter your weight" required>
+                        </div>
+
+                        <div class="input_field">
+                            <label for="Email">Email Id</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div id="up" class="input_field">
+                            <label for="health" >Upload Health Report</label>
+                            <input type="file" id="myFile" name="filename">
+                        </div>
+
+                        <button type="submit" class="nextBtn">
+                            Submit
+                        </button>
+
+
+                </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
